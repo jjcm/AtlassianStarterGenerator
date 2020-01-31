@@ -1,0 +1,607 @@
+<div class='tabs-header'>
+  <div class='tab' activates='bitbucket'>Bitbucket</div>
+  <div class='tab' activates='confluence'>Confluence</div>
+  <div class='tab' activates='jira'>Jira</div>
+  <div class='tab' activates='jsd'>JSD</div>
+  <div class='tab' activates='user'>User</div>
+  <div class='tab' activates='other'>Other</div>
+</div>
+
+<div id='content'>
+  <div class='tab-content' id='bitbucket'>
+    <ul class='generator-list'>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='bitbucket/branches'></ak-icon>
+          <div class='title'>Branch Name</div>
+          <div class='description'>Generates a branch name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='bitbucket/commits'></ak-icon>
+          <div class='title'>Commit Name</div>
+          <div class='description'>Generates a commit name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title linked'>Project</div>
+          <div class='description'>
+            Generates a (linked) project.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>key</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon' src="<%= require('../../assets/images/project-avatar-1.png') %>" draggable="false" />
+          <div class='title'>Project Avatar</div>
+          <div class='description'>Generates a project avatar</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title'>Project Key</div>
+          <div class='description'>Generates a project key</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title'>Project Name</div>
+          <div class='description'>Generates a project name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='bitbucket/pullrequests'></ak-icon>
+          <div class='title linked'>Pull Request</div>
+          <div class='description'>
+            Generates a (linked) pull request.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>description</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='bitbucket/pullrequests'></ak-icon>
+          <div class='title'>Pull Request Description</div>
+          <div class='description'>Generates a pull request description</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='bitbucket/pullrequests'></ak-icon>
+          <div class='title'>Pull Request Name</div>
+          <div class='description'>Generates a pull request name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='bitbucket/repos'></ak-icon>
+          <div class='title'>Repository Name</div>
+          <div class='description'>Generates a repository name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+    </ul>
+  </div>
+  <div class='tab-content' id='confluence'>
+    <ul class='generator-list'>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='page'></ak-icon>
+          <div class='title linked'>Page</div>
+          <div class='description'>
+            Generates a (linked) page.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>title</div>
+              <div class='tag'>body</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='page'></ak-icon>
+          <div class='title'>Page Title</div>
+          <div class='description'>Generates a page title</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='page'></ak-icon>
+          <div class='title'>Page Body</div>
+          <div class='description'>Generates a page body</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='documents'></ak-icon>
+          <div class='title linked'>Space (Global)</div>
+          <div class='description'>
+            Generates a (linked) global space.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>key</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='documents'></ak-icon>
+          <div class='title linked'>Space (Meeple)</div>
+          <div class='description'>
+            Generates a (linked) meeple space.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>key</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='documents'></ak-icon>
+          <div class='title linked'>Space (Personal)</div>
+          <div class='description'>
+            Generates a (linked) personal space.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>key</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon' src="<%= require('../../assets/images/project-avatar-2.png') %>" draggable="false" />
+          <div class='title'>Space Avatar (Global)</div>
+          <div class='description'>Generates a global space avatar.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon avatar' src="<%= require('../../assets/images/meeple-avatar.jpg') %>"
+            draggable="false" />
+          <div class='title'>Space Avatar (Meeple)</div>
+          <div class='description'>Generates a meeple space avatar.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon avatar' src="<%= require('../../assets/images/human-avatar.jpg') %>"
+            draggable="false" />
+          <div class='title'>Space Avatar (Personal)</div>
+          <div class='description'>Generates a personal space avatar.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='document'></ak-icon>
+          <div class='title'>Space Key (Global)</div>
+          <div class='description'>Generates a global space key.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='document'></ak-icon>
+          <div class='title'>Space Key (Personal)</div>
+          <div class='description'>Generates a personal space key.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='document'></ak-icon>
+          <div class='title'>Space Name (Global)</div>
+          <div class='description'>Generates a global space name.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='document'></ak-icon>
+          <div class='title'>Space Name (Personal)</div>
+          <div class='description'>Generates a personal space name.</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+    </ul>
+  </div>
+  <div class='tab-content' id='jira'>
+    <ul class='generator-list'>
+      <!--li>
+        <div class='generator-info'>
+          <div class='title linked'>Component</div>
+          <div class='description'>Generates a (linked) component.<br></div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <div class='title'>Component Description</div>
+          <div class='description'>Generates a component description</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <div class='title'>Component Name</div>
+          <div class='description'>Generates a component name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li-->
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issues'></ak-icon>
+          <div class='title linked'>Issue</div>
+          <div class='description'>
+            Generates a (linked) issue.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>priority icon</div>
+              <div class='tag'>type icon</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>summary</div>
+              <div class='tag'>key</div>
+              <div class='tag'>description</div>
+              <div class='tag'>priority</div>
+              <div class='tag'>resolution</div>
+              <div class='tag'>status</div>
+              <div class='tag'>type</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Description</div>
+          <div class='description'>Generates an issue description</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Key</div>
+          <div class='description'>Generates an issue key</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Priority</div>
+          <div class='description'>Generates an issue priority name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='priority/highest'></ak-icon>
+          <div class='title'>Issue Priority Icon</div>
+          <div class='description'>Generates an issue priority icon</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Resolution</div>
+          <div class='description'>Generates an issue resolution</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Status</div>
+          <div class='description'>Generates an issue status</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Summary</div>
+          <div class='description'>Generates an issue summary</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue'></ak-icon>
+          <div class='title'>Issue Type</div>
+          <div class='description'>Generates an issue type name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon' src="<%= require('../../assets/images/issue-type-icon.png') %>" draggable="false" />
+          <div class='title'>Issue Type Icon</div>
+          <div class='description'>Generates an issue type icon</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title linked'>Project</div>
+          <div class='description'>
+            Generates a (linked) project.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <div class='tag'>type icon</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>key</div>
+              <div class='tag'>type</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon' src="<%= require('../../assets/images/project-avatar-3.png') %>" draggable="false" />
+          <div class='title'>Project Avatar</div>
+          <div class='description'>Generates a project avatar</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title'>Project Key</div>
+          <div class='description'>Generates a project key</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title'>Project Name</div>
+          <div class='description'>Generates a project name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='folder'></ak-icon>
+          <div class='title'>Project Type</div>
+          <div class='description'>Generates a project type name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+    </ul>
+  </div>
+  <div class='tab-content' id='jsd'>
+    <ul class='generator-list'>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue-raise'></ak-icon>
+          <div class='title linked'>Request</div>
+          <div class='description'>
+            Generates a (linked) request.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>type icon</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>summary</div>
+              <div class='tag'>description</div>
+              <div class='tag'>type</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue-raise'></ak-icon>
+          <div class='title'>Request Description</div>
+          <div class='description'>Generates a request description</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue-raise'></ak-icon>
+          <div class='title'>Request Summary</div>
+          <div class='description'>Generates a request summary</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='issue-raise'></ak-icon>
+          <div class='title'>Request Type</div>
+          <div class='description'>Generates a request type</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon' src="<%= require('../../assets/images/request-type-icon.png') %>" draggable="false" />
+          <div class='title'>Request Type Icon</div>
+          <div class='description'>Generates a request type icon</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+    </ul>
+  </div>
+  <div class='tab-content' id='user'>
+    <ul class='generator-list'>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon avatar' src="<%= require('../../assets/images/human-avatar.jpg') %>"
+            draggable="false" />
+          <div class='title'>Avatar (Human)</div>
+          <div class='description'>Generates a human avatar</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <img class='info-icon avatar' src="<%= require('../../assets/images/meeple-avatar.jpg') %>"
+            draggable="false" />
+          <div class='title'>Avatar (Meeple)</div>
+          <div class='description'>Generates a meeple avatar</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='mention'></ak-icon>
+          <div class='title'>@ Handle</div>
+          <div class='description'>Generates an @ handle</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='email'></ak-icon>
+          <div class='title'>Email Address</div>
+          <div class='description'>Generates an email address</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='person'></ak-icon>
+          <div class='title linked'>Human</div>
+          <div class='description'>
+            Generates a (linked) person.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>username</div>
+              <div class='tag'>email</div>
+              <div class='tag'>handle</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='person-circle'></ak-icon>
+          <div class='title linked'>Meeple</div>
+          <div class='description'>
+            Generates a (linked) meeple.<br>
+            Selected layer names must be one of:
+            <div class='tag-container'>
+              <div class='tag-group-heading'>Image Layers: </div>
+              <div class='tag'>avatar</div>
+              <br>
+              <div class='tag-group-heading'>Text Layers: </div>
+              <div class='tag'>name</div>
+              <div class='tag'>username</div>
+              <div class='tag'>email</div>
+              <div class='tag'>handle</div>
+            </div>
+          </div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='status'></ak-icon>
+          <div class='title'>Name</div>
+          <div class='description'>Generates a name</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='status'></ak-icon>
+          <div class='title'>Username</div>
+          <div class='description'>Generates a username</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+    </ul>
+  </div>
+  <div class='tab-content' id='other'>
+    <ul class='generator-list'>
+      <li>
+        <div class='generator-info'>
+          <ak-icon icon='status'></ak-icon>
+          <div class='title'>Date</div>
+          <div class='description'>Generates a random date</div>
+        </div>
+        <div class='icon icon--button icon--star-off'></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<p class='contact-us'>
+  Feedback? <a target='_blank' href='https://atlassian.slack.com/messages/CFGL9B2BW'>#design-system-tools</a>
+</p>

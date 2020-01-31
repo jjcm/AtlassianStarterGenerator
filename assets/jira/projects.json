@@ -1,0 +1,127 @@
+[
+	{
+		"key": "ADR",
+		"name": "Android App",
+		"type": "Software"
+	},
+	{
+		"key": "CS",
+		"name": "Customer Support",
+		"type": "Service Desk"
+	},
+	{
+		"key": "DMS",
+		"name": "Digital Marketing Support",
+		"type": "Service Desk"
+	},
+	{
+		"key": "EO",
+		"name": "Employee Onboarding",
+		"type": "Business"
+	},
+	{
+		"key": "FWS",
+		"name": "Facilities Support",
+		"type": "Service Desk"
+	},
+	{
+		"key": "FIN",
+		"name": "Finance Service Desk",
+		"type": "Service Desk"
+	},
+	{
+		"key": "FME",
+		"name": "Financial Month End",
+		"type": "Business"
+	},
+	{
+		"key": "HCT",
+		"name": "HR Candidate Tracking",
+		"type": "Business"
+	},
+	{
+		"key": "HR",
+		"name": "HR Service Desk",
+		"type": "Service Desk"
+	},
+	{
+		"key": "ICM",
+		"name": "Infrastructure Change Management",
+		"type": "Service Desk"
+	},
+	{
+		"key": "IOS",
+		"name": "iOS App ",
+		"type": "Software"
+	},
+	{
+		"key": "ITOPS",
+		"name": "IT Operations",
+		"type": "Service Desk"
+	},
+	{
+		"key": "ITS",
+		"name": "IT Support",
+		"type": "Service Desk"
+	},
+	{
+		"key": "LEGT",
+		"name": "Legal Service Desk",
+		"type": "Service Desk"
+	},
+	{
+		"key": "MB",
+		"name": "Marketing Blog",
+		"type": "Business"
+	},
+	{
+		"key": "MAC",
+		"name": "Marketing Creatives",
+		"type": "Business"
+	},
+	{
+		"key": "OA",
+		"name": "Office Admin Service Desk",
+		"type": "Service Desk"
+	},
+	{
+		"key": "PERF",
+		"name": "Performance Engineering",
+		"type": "Software"
+	},
+	{
+		"key": "PLAT",
+		"name": "Platform",
+		"type": "Software"
+	},
+	{
+		"key": "PM",
+		"name": "Portfolio Management",
+		"type": "Software"
+	},
+	{
+		"key": "SOPS",
+		"name": "Sales Ops",
+		"type": "Service Desk"
+	},
+	{
+		"key": "WEB",
+		"name": "Team Travel Web",
+		"type": "Software"
+	},
+	{
+		"key": "BG",
+		"name": "Beyond Gravity",
+		"type": "Software"
+	},
+	{
+		"key": "TRS",
+		"name": "Travel & Relocation Support",
+		"type": "Service Desk"
+	},
+	{
+		"key": "TSD",
+		"name": "Travel Service Desk",
+		"type": "Service Desk"
+	}
+]

@@ -1,0 +1,122 @@
+[
+	{
+		"type": "IT support",
+		"summary": "Need access to launch details for Q4",
+		"description": "Looking to get access to the launch details for Q4. Need access so we can coordinate with marketing to ensure the coverage details are correct."
+	},
+	{
+		"type": "IT support",
+		"summary": "I have forgotten my password for the Beyond Gravity VPN",
+		"description": "I'm not able to access most of our systems because I'm working remotely. Can I please get a link to reset it?"
+	},
+	{
+		"type": "IT support",
+		"summary": "My AI has become sentient ",
+		"description": "I'm having trouble locking it down as it has locked me out of the systems. "
+	},
+	{
+		"type": "Licensing and billing",
+		"summary": "Lunar solar panel procurement help",
+		"description": "Some of the panels are coming from Southeast Asia, and there are some import/export laws we have to deal with to be approved to get them here. Need some assistance from legal to help push this through."
+	},
+	{
+		"type": "Licensing and billing",
+		"summary": "Can I get a 1Password license?",
+		"description": "I'm looking to up my password management game. My team mates are using 1Password and recommended I jump on it too. Can I please get a license?"
+	},
+	{
+		"type": "Licensing and billing",
+		"summary": "Need to fulfill a billing request on rover parts",
+		"description": "The company supplying us with rover parts has raised their prices, we need to pay their bill."
+	},
+	{
+		"type": "New employee starting",
+		"summary": "New person starting",
+		"description": "We have a new person joining the team and they need a Beyond Gravity swag pack."
+	},
+	{
+		"type": "New employee starting",
+		"summary": "New team m8 is joining next week",
+		"description": "We have a new team member joining next week and need them added to our mailing list. "
+	},
+	{
+		"type": "New employee starting",
+		"summary": "New intern request",
+		"description": "Jake Miller here requesting yet another intern. I need one for summer to do all my work, thanks."
+	},
+	{
+		"type": "Report a problem",
+		"summary": "I can't access the intranet from my computer",
+		"description": "Whenever I try to load the Beyond Gravity intranet I get a 404 error. It's been at least 100000 microseconds since it's worked."
+	},
+	{
+		"type": "Report a problem",
+		"summary": "The button to the bathroom is sticky.",
+		"description": "I don't want to know why, but it's always sticky. Can we get a cleaning team in here?"
+	},
+	{
+		"type": "Report a problem",
+		"summary": "Outlook isn't loading new emails",
+		"description": "I'm not sure why, but no one on my team has received any new emails in Outlook since this morning. "
+	},
+	{
+		"type": "Request new hardware",
+		"summary": "I've received a phising email",
+		"description": "I have an email from Elon Musk asking for my details but I don't think he works at this company"
+	},
+	{
+		"type": "Request new hardware",
+		"summary": "My mouse has exploded",
+		"description": "There are pieces of mouse all over the floor. May I please have a trackpad, good sir?"
+	},
+	{
+		"type": "Request new software",
+		"summary": "Can't connect the rover to the wifi network",
+		"description": "The rover prototype can't seem to authenticate to the wifi using my employee credentials. Tried three of our logins and none work."
+	},
+	{
+		"type": "Security help",
+		"summary": "Lost badge at rocketry convention",
+		"description": "At the latest Far-Out Summit I lost my employee badge. Need a new one and the previous one deactivated."
+	},
+	{
+		"type": "Security help",
+		"summary": "Martian habitat servers need security updates",
+		"description": "Latest habitat is running v 2.04 of our Beyond Gravity Habitation OS, but hasn't received the latest security updates. Can't seem to install certain packages without these. "
+	},
+	{
+		"type": "Security help",
+		"summary": "Disgruntled employee wont leave the building",
+		"description": "Former employee Jake Miller is hanging around claiming his booster designs were stolen and credit was taken for them by management. He's standing on the desks yelling profanities. "
+	},
+	{
+		"type": "Technical support",
+		"summary": "My laptop won't turn on",
+		"description": "Laptop just gives me a blank screen. Fans spin up though. "
+	},
+	{
+		"type": "Technical support",
+		"summary": "My ship's navigation system has a bug and keeps pointing to Pluto",
+		"description": "We keep accidentally leaving the solar system because our navigation system is pointing to Pluto. It's happened 3 times since last week and I'm worried we don't know how to get home. Can someone send help?"
+	},
+	{
+		"type": "Technical support",
+		"summary": "Yubikey melted from rocket test",
+		"description": "Yea I had my yubikey a bit to close to one of our booster tests. Need my auth reqs reset and a new key assigned. "
+	},
+	{
+		"type": "VPN and internet support",
+		"summary": "I'm locked out of the Beyond Gravity VPN",
+		"description": "Can't seem to access. Keeps asking for my yubikey but I was never assigned one."
+	},
+	{
+		"type": "VPN and internet support",
+		"summary": "My report has left the company",
+		"description": "I need to return their computer and have them removed from the Beyond Gravity employment system."
+	},
+	{
+		"type": "VPN and internet support",
+		"summary": "Internet has disappeared from my desktop",
+		"description": "Somebody on my team had a 'hilarious' prank idea and deleted internet explorer from my laptop. Please help."
+	}
+]

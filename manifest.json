@@ -1,0 +1,7 @@
+{
+  "name": "Atlassian Starter Generator",
+  "id": "804870167602525344",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}
